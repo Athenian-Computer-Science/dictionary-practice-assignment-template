@@ -1,25 +1,24 @@
-# Master CT Assignment Template 
-
-Use this master template to create CT Assignment Templates.
+# Dictionary Practice
 
 ## Problem Description
-Problem description goes here. 
+Follow the instructions and complete each function. Test your functions in 'main' and then in `pytest`. (Note: you will
+ need to have all of the functions completed correctly to pass `pytest`!)
 
-* Steps to take go here. 
+## Functions
+* `make_dict()`
+    * use the information provided to create a dictionary
+    * you may create it manually or using methods
 
-## Example
-```
-Value to increment? 5
-10
-```
+* `add_element()`
+    *  add a key- value pair `'dairy': 'yogurt'` to the given dictionary
 
-## Suggested Approach
-1) Suggestions go here
+* `remove_element()`
+    * remove `'veggie': 'carrot'` from the dictionary
 
-## Hints
-* Use the section under `if __name__ == '__main__': ` to change arguments and check your work.
-* When you are happy with your code, use `input()` to prompt the user for a value.
-* Add code to [my_code.py](./my_code.py) to make it do the desired thing.
-* Run your code with: `python my_code.py` or the run button
-* Run your tests with: `pytest`
+* `merge_dict()`
+    * Merge two given dictionaries together so the contents are in numerical order
+
+* `access_key()`
+    * return the value of the key 'Twenty'
+
 
